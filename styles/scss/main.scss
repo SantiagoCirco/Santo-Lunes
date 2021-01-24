@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 // Table of contents :
 //  - variables
@@ -13,6 +13,7 @@
 // variables ................................................
 
 $color-lightGrey: rgba(200,200,200,1);
+$color-description-text: #7a7a7a;
 $color-black: #222222;
 
 
@@ -40,6 +41,10 @@ hr{
 // nav ..........................
 
 
+.navbar{
+    position: sticky;
+}
+
 .nav-divider{
     color: $color-lightGrey;
     opacity: .4;
@@ -53,4 +58,17 @@ hr{
     font-size: 12px;
     letter-spacing: 0.1em;
     color: $color-black;
+}
+
+
+.about-us{
+    font-family:'Lora', serif;
+    &__title{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    &__description{
+        font-family: 'Roboto', sans-serif;
+        color: $color-description-text;
+    }
 }
