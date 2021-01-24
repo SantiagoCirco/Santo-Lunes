@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+// Table of contents :
+//  - variables
+//  - elements
+//  - Header
+//  -  nav
+//
+
+
+// variables ................................................
+
+$color-lightGrey: rgba(200,200,200,1);
+$color-black: #222222;
+
+
+// elements ..................................................
+
+body{
+    font-family: 'Noto Sans',sans-serif;
+}
+
+hr{
+    color: $color-lightGrey;
+    margin: 0;
+}
+
+// Header ....................................................
+
+.header{
+    // header styles here...
+    &__img{
+        margin: 40px auto;
+        padding-left: 52px;
+    }
+}
+
+// nav ..........................
+
+
+.nav-divider{
+    color: $color-lightGrey;
+    opacity: .4;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-right: 16px;
+    font-size: 16px;
+}
+
+.nav-link{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: $color-black;
+}
