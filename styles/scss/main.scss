@@ -98,10 +98,13 @@ hr{
     }
 }
 
-.img-box{
+@media only screen and (min-width:768px){
+    .img-box{
     width: 20vw;
     height: 12vw;
+    }
 }
+
 
 
 .rect{
