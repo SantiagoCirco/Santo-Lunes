@@ -92,3 +92,33 @@ hr {
   font-weight: 400;
   color: #7a7a7a;
 }
+
+.Colored-box {
+  width: 15vw;
+  height: 12vw;
+  color: white;
+}
+
+.Colored-box i {
+  font-size: 60px;
+}
+
+.Colored-box1 {
+  background-color: indigo;
+}
+
+.Colored-box2 {
+  background-color: fuchsia;
+}
+
+.Colored-box3 {
+  background-color: green;
+}
+
+.Colored-box4 {
+  background-color: purple;
+}
+
+.Colored-box5 {
+  background-color: blue;
+}

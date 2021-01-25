@@ -119,3 +119,28 @@ hr{
         color:$color-description-text;
     }
 }
+
+
+.Colored-box{
+    width:15vw;
+    height: 12vw;
+    color: white;
+    i{
+        font-size: 60px;
+    }
+    &1{
+        background-color: indigo;
+    }
+    &2{
+        background-color: fuchsia;
+    }
+    &3{
+        background-color: green;
+    }
+    &4{
+        background-color: purple;
+    }
+    &5{
+        background-color: blue;
+    }
+}
