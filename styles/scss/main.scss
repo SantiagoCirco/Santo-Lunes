@@ -30,19 +30,24 @@ hr{
 
 // Header ....................................................
 
-.header{
-    // header styles here...
-    &__img{
-        margin: 40px auto;
-        padding-left: 52px;
+.header__img{
+    width: 90vw;
+}
+
+@media only screen and (min-width:600px){
+    .header__img{
+        max-width: 30vw;
+        margin-left: 48px;
     }
 }
+
 
 // nav ..........................
 
 
 .navbar{
     position: sticky;
+    z-index: 1;
 }
 
 .nav-divider{
@@ -58,6 +63,11 @@ hr{
     font-size: 12px;
     letter-spacing: 0.1em;
     color: $color-black;
+}
+
+
+.hero{
+    width: 100%;
 }
 
 

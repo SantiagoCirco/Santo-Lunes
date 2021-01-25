@@ -10,13 +10,20 @@ hr {
 }
 
 .header__img {
-  margin: 40px auto;
-  padding-left: 52px;
+  width: 90vw;
+}
+
+@media only screen and (min-width: 600px) {
+  .header__img {
+    max-width: 30vw;
+    margin-left: 48px;
+  }
 }
 
 .navbar {
   position: -webkit-sticky;
   position: sticky;
+  z-index: 1;
 }
 
 .nav-divider {
@@ -32,6 +39,10 @@ hr {
   font-size: 12px;
   letter-spacing: 0.1em;
   color: #222222;
+}
+
+.hero {
+  width: 100%;
 }
 
 .about-us {
